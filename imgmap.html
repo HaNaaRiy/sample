@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>imageMap</title>
+    <style>
+        img{display: block; width: 600px; height: 400px; margin: auto;}
+        /* or set width directly in omg tag and  set display block and margin auto */
+        /* img{display: block; margin: auto;}s */
+</style>
+</head>
+<body>
+        <img src="https://images.unsplash.com/photo-1586244897821-c06ba29d5b5d?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MTF8MTM2ODc4OHx8ZW58MHx8fHw%3D&amp;auto=format&amp;fit=crop&amp;w=600&amp;q=60" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="abc" title="abc" href="https://www.w3schools.com/htmL/computer.htm" coords="19,102,113,287,256,157,240,116,200,88,150,75,73,75,39,80" shape="poly">
+            <area target="_blank" alt="xyz" title="xyz" href="https://www.twinkl.co.in/payment" coords="434,730,143" shape="circle">
+        </map>
+        <!-- <img src="pic.jpg" usemap="#image-map">
+        <map name="image-map">
+            <area target="_blank" alt="hjgj" title="hjgj" href="https://www.w3schools.com/htmL/html_images_imagemap.asp" coords="101,176,259,270" shape="rect">
+        </map> -->
+        <!-- <img src="pic2.jpg" usemap="#image-map" width="250" height="300">
+        <map name="image-map">
+            <area target="_blank" alt="abcd" title="abcd" href="https://www.w3schools.com/htmL/html_images_imagemap.asp" coords="1,6,107,155" shape="rect">
+        </map> -->
+
+    
+</body>
+</html>

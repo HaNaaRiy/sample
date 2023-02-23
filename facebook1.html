@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+        background-color: rgb(233, 235, 236);
+    }
+    .left {
+        width: 500px;
+        float: left;
+        /* background-color: rgb(190, 160, 217); */
+        margin-top: 200px;
+        margin-left: 100px;
+    }
+    .left p {
+        font-size: 25px;
+    }
+    h1 {
+        font-family: cursive;
+        color: rgb(19, 105, 216);
+        font-size: xxx-large;
+
+    }
+     .container {
+    
+        width: 400px;
+        height: 400px;
+        float: right;
+        margin-right: 150px;
+        margin-top: 150px;
+        border-radius: 10px;
+
+    }
+    .container p{text-align: center;}
+    form{
+        text-align: center;
+        background-color: white;
+    }
+   
+    .right input {
+        width: 300px;
+        margin: 10px auto;
+        padding: 15px 15px;
+        border-radius: 5px;
+        border-width: 1px;
+        border-color: lightgray;
+        border-style: solid;
+
+    }
+    .login {
+        width: 320px;
+        height: 50px;
+        background-color: rgb(19, 105, 216);
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+        font-weight: bold;
+        color: white;
+        font-size: 18px;
+
+    }
+    button:active{background-color:rgb(1, 7, 15);}
+    button:hover{background-color:rgb(19, 94, 192);}
+
+    .newAccount {
+        background-color: rgb(26, 165, 26);
+        color: white;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        padding: 10px;
+        font-weight: bold;
+        font-size: 18px;
+        border-radius: 5px;
+        border: none;
+        cursor: pointer;
+    }
+
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+
+    /* .last{background-color: yellow;} */
+</style>
+
+<body>
+    <div class="left">
+        <h1>facebook</h1>
+        <p>facebook helps you connect and share with thhe people in your life </p>
+    </div>
+    <div class="container">
+
+        <div class="right">
+            <form target="_blank">
+                <input type="email" name="" id="" placeholder="Email address or phone number"><br>
+                <input type="password" name="" id=""><br>
+                <button class="login" type="submit">LOG IN</button><br><br>
+                <a href="#">Forgotten password?</a>
+                <hr>
+                <button class="newAccount">Create new account</button>
+            </form>
+        </div>
+        <div class="last">
+            <p><a href="#">Create a page</a> for a celebrity, brand or a business</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
